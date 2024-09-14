@@ -12,5 +12,5 @@ public class Main {
 }
  public static void main(SString args[]){
    B b = new B();
-   b.meth();
+   System.out.print(b.meth());
 }
