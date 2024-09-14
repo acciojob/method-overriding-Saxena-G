@@ -1,7 +1,6 @@
 package com.driver;
 
-    public class Main {
-        
+    public class Main { 
     public static class A {
         public String meth() {
             return "Invoking method from class A"; 
@@ -13,8 +12,6 @@ package com.driver;
     }
 }
     public static void main(String [] args) {
-        B oBj = new B();
-         oBj.meth();
         B oBj1 = new B();
          oBj1.meth();
     }
