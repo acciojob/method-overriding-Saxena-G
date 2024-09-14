@@ -13,9 +13,9 @@ package com.driver;
         }
     }
     public static void main(String [] args) {
-        B b = new B();
-         b.meth();
-        B b2 = new B();
-        b2.meth();
+        B oBj = new B();
+         oBj.meth();
+        B oBj1 = new B();
+        oBj1.meth();
     }
 }
