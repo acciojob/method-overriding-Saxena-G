@@ -14,6 +14,8 @@ package com.driver;
     }
     public static void main(String [] args) {
         B b = new B();
-       System.out.println(b.meth());
+        B b2 = new B();
+        b.meth();
+        b2.meth();
     }
 }
