@@ -7,7 +7,7 @@ public class Main {
             return "Invoking method from class A";
         }
     }
-
+   
      public static class B extends A {
         public String meth() {
             return "Method is overridden in Extended class B";
