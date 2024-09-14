@@ -10,6 +10,7 @@ public class Main {
   public String meth(){
       return "Method is overridden in Extended class B";
 }
+ }
  public static void main(SString args[]){
    B b = new B();
    System.out.print(b.meth());
