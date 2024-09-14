@@ -14,6 +14,6 @@ public class Main {
  }
  public static void main(SString args[]){
    B b = new B();
-   System.out.print(b.meth());
+   System.out.println(b.meth());
 }
  }
