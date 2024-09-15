@@ -1,5 +1,5 @@
 package com.driver;
-  class A {
+ default class A {
       
         public String meth()
       {
@@ -7,7 +7,7 @@ package com.driver;
         }
     }
    
-       class B extends A {
+      default class B extends A {
         public String meth() 
         {
             return "Method is overridden in Extended class B";
