@@ -20,6 +20,6 @@ public class Main {
         B obj = new B();
            obj.meth();
         B obj1 = new B();
-           oBj1.meth();
+           obj1.meth();
     }
 }
