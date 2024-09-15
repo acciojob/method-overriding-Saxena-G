@@ -1,7 +1,7 @@
 package com.driver;
 
 public class Main {
-     class A {
+     static class A {
       
         public String meth()
       {
@@ -9,7 +9,7 @@ public class Main {
         }
     }
    
-       class B extends A {
+      static class B extends A {
         public String meth() 
         {
             return "Method is overridden in Extended class B";
